@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h5 {
+  font-family: 'Playfair Display', serif !important;
+}
+
+p, body , a{
+  font-family: 'Inter', sans-serif !important;
+}
+.nav-link:hover {
+  color:#EEC423 !important;
+}
+.bg-slide {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+.heroSection{
+    background-color: rgba(236, 195, 34, 0.9);
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 50px;
+
+}
+.heroSection h1{
+    font-size: 70px;
+}
+.heroBtn{
+    background-color: transparent !important;
+    border: 2px solid white !important;
+    padding: 5px 30px !important;
+    color: white !important;
+}
+.heroBtn:hover{
+    border-color: black !important;
+    color: black !important;
+
+}
+.fSize{
+    color: #EEC423;
+    font-size: 40px;
+}
+.fText{
+    font-weight: bold;
+    font-size: 25px
+}
+.cardH:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.underline {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #EEC423 50%, #000 50%);
+  border-radius: 2px;
+}
+.lineC{
+    background: linear-gradient(to right, white 50%, #000 50%);
+}
+.bgW{
+    background-color: #EEC423;
+}
+.nameC{
+    color: #EEC423;
+}
+.iconsStyle{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 405px;
+    padding: 10px;  
+}
+.iconsA:hover{
+    color: #EEC423 !important;
+}
+.btnHover:hover{
+    background-color: #EEC423 !important;
+    color: #000 !important;
+}
+input:hover , textarea:hover{
+    border: 1px solid #EEC423;
+    cursor: pointer;
+}
+  
+
+  
+@media all and (max-width:700px){
+    .heroSection{
+       padding: 3px;
+}
+.heroSection h1{
+    font-size: 30px;
+}
+.heroSection h4{
+    font-size: 16px;
+}
+.heroSection p{
+    font-size: 12px;
+}
+.heroBtn{
+    padding: 5px 20px !important;
+    margin-left: 30px !important;
+}
+.iconsStyle{
+    width: 370px;
+}
+
+}
