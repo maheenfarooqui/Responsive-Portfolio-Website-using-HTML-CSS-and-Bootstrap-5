@@ -43,3 +43,8 @@
     border-color: #eecf23 !important;
     color: #eecf23 !important;
 }
+@media all and (max-width:700px){
+    .card{
+    width:300px;
+    }
+}

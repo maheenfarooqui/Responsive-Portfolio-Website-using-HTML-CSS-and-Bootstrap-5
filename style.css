@@ -16,6 +16,7 @@ p, body , a{
   height: 90vh;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .heroSection{
     background-color: rgba(236, 195, 34, 0.9);
@@ -94,23 +95,25 @@ input:hover , textarea:hover{
   
 @media all and (max-width:700px){
     .heroSection{
-       padding: 3px;
+       padding: 5px;
 }
 .heroSection h1{
     font-size: 30px;
+    margin-left: 10px;
 }
 .heroSection h4{
     font-size: 16px;
 }
 .heroSection p{
     font-size: 12px;
+    text-align: center !important;
 }
 .heroBtn{
     padding: 5px 20px !important;
-    margin-left: 30px !important;
+    margin-left: 18px !important;
 }
 .iconsStyle{
-    width: 370px;
+    width: 300px !important;
 }
 
 }
