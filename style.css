@@ -14,6 +14,7 @@ p, body , a{
 }
 .bg-slide {
   height: 90vh;
+  min-height: 300px;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -94,8 +95,13 @@ input:hover , textarea:hover{
 
   
 @media all and (max-width:700px){
-    .heroSection{
-       padding: 5px;
+.heroSection{
+    padding: 5px;
+    height: 67.5vh;
+}
+.bg-slide {
+    height: 50vh;
+    background-position: center;
 }
 .heroSection h1{
     font-size: 30px;
