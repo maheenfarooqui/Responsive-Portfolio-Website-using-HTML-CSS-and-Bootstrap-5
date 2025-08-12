@@ -97,7 +97,7 @@ input:hover , textarea:hover{
 @media all and (max-width:700px){
 .heroSection{
     padding: 5px;
-    height: 400px;
+    height: 380px;
 }
 .bg-slide {
     height: 50vh;
