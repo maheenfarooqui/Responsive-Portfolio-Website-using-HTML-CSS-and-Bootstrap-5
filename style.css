@@ -101,7 +101,8 @@ input:hover , textarea:hover{
 }
 .bg-slide {
     height: 50vh;
-    background-position: top;
+    background-size: cover; 
+    background-position: center; 
 }
 .heroSection h1{
     font-size: 30px;
